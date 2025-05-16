@@ -1,5 +1,7 @@
 # Welcome to Sam's digital portfolio
 This is a digital porfolio for 2025 techniques class
+YAy
+
 
 Lightroom Preset Photos
 ![IMG_8138](https://github.com/user-attachments/assets/91943731-2be4-41a0-b328-8bb8154a5a96)
