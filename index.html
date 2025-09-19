@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pinterest Notes</title>
+</head>
+<body>
+  <h1>How Pinterest Was Made</h1>
+
+  <h2>What I Learned</h2>
+  <ul>
+    <li>At first they just used Python and MySQL.</li>
+    <li>They added caching with Memcache and Redis to make the site faster.</li>
+    <li>As more people joined, they used more servers and split their databases.</li>
+    <li>Now it’s way bigger: they have microservices, data pipelines with Kafka, and they keep everything in the cloud (AWS).</li>
+    <li>The front end (what we see) is built with React, which makes the pin grid smooth.</li>
+  </ul>
+
+  - **HTML**
+  - Uses a grid of “cards” (each pin = image + text + links).
+  - Semantic elements for layout (header, main feed, footer).
+  - each pin uses <img> tag for photos
+  - A description or title (inside <p> or <span>).
+
+- **CSS**
+  - columns and rows but unaligned and slightly scattered
+  - changes sizes based on device
+  - White card backgrounds
+  - rounded corners border-radius
+  - drop shadows box-shadow
+
+
+- **JavaScript**
+  - Infinite scrolling
+  - Interactive buttons and features when hovering over images
+  - dynamically changing content
+  - fade in
+</html>
